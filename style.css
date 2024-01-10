@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+
+body {
+  font-family:'Roboto Mono', monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  background-color: #111111;
+  background: url('https://img.freepik.com/free-photo/abstract-bright-green-square-pixel-tile-mosaic-wall-background-texture_1258-72143.jpg?w=740&t=st=1704897354~exp=1704897954~hmac=12873037eff1754fdfcd9a3d84e38e537572997135d024f284c875bcc30cc50c') repeat;
+  color: #ffffff;
+}
+/* header   */
+  
+header {   
+  background: url('https://img.freepik.com/free-photo/texture-swimming-pool-mosaic-tile-background-wallpaper-banner-backdrop_1258-56216.jpg?w=740&t=st=1704897480~exp=1704898080~hmac=419640d09c34c7ec52d7406618a30f0c17e8121aadfce528bf84641466072cf8') repeat;   
+  text-align: center;  
+    padding: 20px; 
+}
+
+.pixel-header {
+    background: url('https://img.freepik.com/free-photo/texture-swimming-pool-mosaic-tile-background-wallpaper-banner-backdrop_1258-56216.jpg?w=740&t=st=1704897480~exp=1704898080~hmac=419640d09c34c7ec52d7406618a30f0c17e8121aadfce528bf84641466072cf8') repeat;
+    text-align: center;
+    padding: 20px;
+}
+    
+h1, h2 {
+  color: #ffffff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h3 {
+  color: #ffe100;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2em;
+  margin-bottom: 12px;
+}
+
+.h3:hover {
+background-color: #ffe100;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+article {
+    width: 240px; 
+    height: 230px;
+    background-color: #0014aa;
+    background: url('https://img.freepik.com/free-vector/blue-background-with-squared-shapes_1100-199.jpg?w=740&t=st=1703535493~exp=1703536093~hmac=dde24ae…');
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #000f80;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+a.button {
+    color: #0014aa;
+    background-color: #00052a;
+  color: #fff;
+  display: inline-block;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: 'Press Start 2P', cursive;
+  transition: background-color 0.3s ease-in-out;
+}
+
+a.button:hover {
+  background-color: #ffe100;
+}
+
+.button, h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+.logo, .computer {
+  max-width: 100%;
+  height: auto;
+}
+
+.computer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  width: 85px;
+}
+
+.categories {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 13px;
+}
+
+.avatar-img {
+  width: 200px;
+  height: auto;
+}
+
+.round-img {
+  border-radius: 80px;
+}
+.gif {
+  width: 100px;
+  height: 100px;
+}
