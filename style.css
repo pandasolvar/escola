@@ -6,22 +6,33 @@ body {
   margin: 0;
   height: 100%;
   padding: 0;
-  background-color: #111111;
-  background: url('https://img.freepik.com/free-photo/abstract-bright-green-square-pixel-tile-mosaic-wall-background-texture_1258-72143.jpg?w=740&t=st=1704897354~exp=1704897954~hmac=12873037eff1754fdfcd9a3d84e38e537572997135d024f284c875bcc30cc50c') repeat;
+  background-color: #34B77B;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #1cbcf2), color-stop(1, #054c70));
+  background: -webkit-linear-gradient(bottom, #1cbcf2 0%, #054c70 100%);
+  background: -moz-linear-gradient(bottom, #1cbcf2 0%, #054c70 100%);
+  background: -o-linear-gradient(bottom, #1cbcf2 0%, #054c70 100%);
+  background: -ms-linear-gradient(bottom, #1cbcf2 0%, #054c70 100%);
+  background: linear-gradient(to top, #1cbcf2 0%, #054c70 100%);
   color: #ffffff;
 }
 /* header   */
   
-header {   
+header {
+     
   background: url('https://img.freepik.com/free-photo/texture-swimming-pool-mosaic-tile-background-wallpaper-banner-backdrop_1258-56216.jpg?w=740&t=st=1704897480~exp=1704898080~hmac=419640d09c34c7ec52d7406618a30f0c17e8121aadfce528bf84641466072cf8') repeat;   
   text-align: center;  
     padding: 20px; 
 }
 
 .pixel-header {
-    background: url('https://img.freepik.com/free-photo/texture-swimming-pool-mosaic-tile-background-wallpaper-banner-backdrop_1258-56216.jpg?w=740&t=st=1704897480~exp=1704898080~hmac=419640d09c34c7ec52d7406618a30f0c17e8121aadfce528bf84641466072cf8') repeat;
-    text-align: center;
-    padding: 20px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(0.19, #1cbcf2), color-stop(0.51, #054c70));
+  background: -webkit-linear-gradient(right, #1cbcf2 19%, #054c70 51%);
+  background: -moz-linear-gradient(right, #1cbcf2 19%, #054c70 51%);
+  background: -o-linear-gradient(right, #1cbcf2 19%, #054c70 51%);
+  background: -ms-linear-gradient(right, #1cbcf2 19%, #054c70 51%);
+  background: linear-gradient(to left, #1cbcf2 19%, #054c70 51%);
+  text-align: center;
+  padding: 20px;
 }
     
 h1, h2 {
